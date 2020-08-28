@@ -1,59 +1,80 @@
 /*Global styles
 -------------------------------------------*/
-body{
-    background-color:hsl(229, 57%, 11%);
+body {
+  background-color: hsl(229, 57%, 11%);
 }
-.wrapper{
-    height: 100vh;
-
-}
-.upper, .lower {
-    height: 50%;
-
-}
-.upper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.left, .right{
-    margin-right: 10px;
-    border: 2px solid white;
+.wrapper {
+  height: 100vh;
+  background-image: url("images/bg-desktop.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-.right {
-    background-color: red;
+.upper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -100px;
+  padding: 12px;
 }
 
 /*Body content
 -------------------------------------------*/
-.content{
-    width: 600px;
-    margin: 0 auto;
-    color: hsl(243, 100%, 93%);
-    background-color:hsl(228, 56%, 26%);
-    display: flex;
+.left {
+  border-top-right-radius: 70px;
+  background-color: hsl(228, 56%, 26%);
+  border: solid white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 24px;
+  margin-right: 10px;
+}
+
+.right {
+  background-color: hsl(228, 56%, 26%);
+  border: solid pink;
+  border-radius: 12px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+margin-left: 10px;
+}
+.content {
+  width: 600px;
+  margin: 0 auto;
+  color: hsl(243, 100%, 93%);
+  display: flex;
 }
 
 .icons {
-    padding: 24px;
+  padding: 24px;
+  padding-right: 100px;
 }
 
-.upload-icons{
-    display: flex;
-    justify-content: space-between;
+.upload-icons {
+  display: flex;
+  justify-content: space-between;
+ 
 }
+.logo{
+    width: 80px;
+}
+.upload-icons 
+
 
 /*Footer styles
 -------------------------------------------*/
-.attribution { 
-    color: #ffffff;
-    font-size: 11px; 
-    text-align: center; 
-    position: absolute;
-    right: 20px;
-    bottom: 10px;
+.attribution {
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
 }
-.attribution a { 
-    color:#ffffff; 
+.attribution a {
+  color: #ffffff;
 }
