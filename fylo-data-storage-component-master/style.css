@@ -28,8 +28,8 @@ body {
   border-top-right-radius: 70px;
   background-color: hsl(228, 56%, 26%);
   border: solid white;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 24px;
   margin-right: 10px;
 }
@@ -38,9 +38,10 @@ body {
   background-color: hsl(228, 56%, 26%);
   border: solid pink;
   border-radius: 12px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-margin-left: 10px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+    margin-left: 10px;
+    
 }
 .content {
   width: 600px;
@@ -50,21 +51,28 @@ margin-left: 10px;
 }
 
 .icons {
-  padding: 24px;
-  padding-right: 100px;
+  padding: 14px;
+  padding-right: 90px;
 }
 
 .upload-icons {
   display: flex;
   justify-content: space-between;
- 
+}
+
+
+/*Image styles
+-------------------------------------------*/
+.Document-img, .Folder-img, .Upload-img{
+    padding:7px;
+    background-color: hsl(229, 57%, 11%);
+    margin: 5px;
+    border-radius: 10px;
 }
 .logo{
-    width: 80px;
+    width: 100px;
+    padding-bottom: 15px;
 }
-.upload-icons 
-
-
 /*Footer styles
 -------------------------------------------*/
 .attribution {
