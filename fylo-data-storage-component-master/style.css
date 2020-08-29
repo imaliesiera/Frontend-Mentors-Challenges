@@ -2,17 +2,16 @@
 -------------------------------------------*/
 body {
   background-color: hsl(229, 57%, 11%);
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 .wrapper {
   height: 100vh;
   background-image: url("images/bg-desktop.png");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: bottom left 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .upper {
@@ -22,22 +21,26 @@ body {
   margin-top: -100px;
   padding: 12px;
 }
-.gradient{
-    margin-top:15px;
-    margin-bottom:15px;
-    margin-right: -50px;
-    background-image: linear-gradient(to right,hsl(6, 100%, 80%),hsl(335, 100%, 65%));
-    background-size: 81.5% 100%;
-    background-repeat: no-repeat;
-    background-color: hsl(229, 57%, 11%);
-    color: transparent;
-    font-size: 10px;
-    border-radius:12px;
+.gradient {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: -50px;
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+  background-size: 81.5% 100%;
+  background-repeat: no-repeat;
+  background-color: hsl(229, 57%, 11%);
+  color: transparent;
+  font-size: 10px;
+  border-radius: 12px;
 }
 
-.text{
-    margin:30px;
-    font-size: 14px;
+.text {
+  margin: 30px;
+  font-size: 14px;
 }
 
 /*Body content
@@ -45,14 +48,14 @@ body {
 .left {
   border-top-right-radius: 70px;
   background-color: hsl(228, 56%, 26%);
-  margin-right: 16px;  
+  margin-right: 16px;
   padding-right: 10px;
 }
 .right {
   background-color: hsl(228, 56%, 26%);
-  border-radius: 12px; 
+  border-radius: 12px;
   margin-top: 30px;
-    padding-right: 50px;
+  padding-right: 50px;
 }
 .content {
   width: 700px;
@@ -69,24 +72,37 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.range{
-    display: flex;
-    justify-content: space-between;
-    margin-right: -50px;
+.range {
+  display: flex;
+  justify-content: space-between;
+  margin-right: -50px;
 }
-
 
 /*Image styles
 -------------------------------------------*/
-.Document-img, .Folder-img, .Upload-img{
-    padding:7px;
-    background-color: hsl(229, 57%, 11%);
-    margin: 5px;
-    border-radius: 10px;
+.Document-img,
+.Folder-img,
+.Upload-img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 8px 4px; */
+  background-color: hsl(229, 57%, 11%);
+  margin: 5px;
+  border-radius: 8px;
 }
-.logo{
-    width: 100px;
-    margin: 20px;
+.Document-img img  {
+  height: 18px;
+
+}
+.Folder-img img {
+    width: 20px;
+}
+.logo {
+  width: 100px;
+  margin: 20px;
 }
 /*Footer styles
 -------------------------------------------*/
