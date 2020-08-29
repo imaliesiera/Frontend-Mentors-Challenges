@@ -3,20 +3,19 @@
 body {
   background-color: hsl(229, 57%, 11%);
   font-family: "Raleway";
-}
-
-.wrapper {
-  height: 100vh;
   background-image: url("images/bg-desktop.png");
   background-repeat: no-repeat;
   background-position: bottom left;
+}
+@media screen and (max-width: 1440px) {
+.wrapper {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-
-
+}
 
 .upper {
   display: flex;
