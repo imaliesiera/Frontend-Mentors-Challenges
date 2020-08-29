@@ -180,18 +180,30 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-     align-items: center;
+    align-items: center;
   }
-  .right {
-    margin-right: 6%;
-    padding-right: 2%;
+  .wrapper{
+    align-items: center;
+    justify-content: center;
+  }
+  .left {
+    margin: 3%;
+    padding-right: 3%;
+  }
+  .right{
+    margin: 1%;
+    padding-right: 1%;
+  }
+
+  .upload-icons{
+    padding-left: 15px;
   }
   .gradient, .range{
   margin: 5%; 
   } 
   .gb-left {
     position: absolute;
-    left: 20%;
+    left: 25%;
     top: 62%;
     bottom: 28%;
 }
@@ -201,7 +213,8 @@ body {
 }
 
 @media screen and (max-width: 375PX) {
-.wrapper {
+body {
   background-image: url("images/bg-mobile.png");
+ 
 }
 }
