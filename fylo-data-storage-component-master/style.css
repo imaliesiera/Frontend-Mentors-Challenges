@@ -175,7 +175,7 @@ body {
 /*Responsive styles
 -------------------------------------------*/
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 760px) {
   .content{
     display: flex;
     flex-direction: column;
@@ -186,7 +186,13 @@ body {
     margin-right: 6%;
     padding-right: 2%;
   }
-  .gradient, .range {
+  .gradient, .range{
   margin: 5%; 
   } 
+  .gb-left {
+    position: absolute;
+    left: 20%;
+    top: 62%;
+    bottom: 28%;
+}
 }
