@@ -195,4 +195,13 @@ body {
     top: 62%;
     bottom: 28%;
 }
+.square{
+  visibility: hidden;
+}
+}
+
+@media screen and (max-width: 375PX) {
+.wrapper {
+  background-image: url("images/bg-mobile.png");
+}
 }
