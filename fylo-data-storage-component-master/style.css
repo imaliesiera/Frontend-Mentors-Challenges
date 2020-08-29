@@ -4,6 +4,7 @@ body {
   background-color: hsl(229, 57%, 11%);
   font-family: "Raleway";
 }
+
 .wrapper {
   height: 100vh;
   background-image: url("images/bg-desktop.png");
@@ -14,6 +15,8 @@ body {
   align-items: center;
   position: relative;
 }
+
+
 
 .upper {
   display: flex;
@@ -171,18 +174,19 @@ body {
 }
 /*Responsive styles
 -------------------------------------------*/
-@media screen and (max-width: 760px) {
+
+@media screen and (max-width: 375px) {
   .content{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+     align-items: center;
   }
   .right {
     margin-right: 6%;
     padding-right: 2%;
-    
-}
-.gradient, .range {
-  margin: 5%;
+  }
+  .gradient, .range {
+  margin: 5%; 
+  } 
 }
