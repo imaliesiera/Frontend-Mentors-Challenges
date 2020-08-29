@@ -5,7 +5,7 @@ body {
   font-family: "Raleway";
 }
 .wrapper {
-  height: 97vh;
+  height: 100vh;
   background-image: url("images/bg-desktop.png");
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -168,4 +168,21 @@ body {
 }
 .attribution a {
   color: #ffffff;
+}
+/*Responsive styles
+-------------------------------------------*/
+@media screen and (max-width: 760px) {
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .right {
+    margin-right: 6%;
+    padding-right: 2%;
+    
+}
+.gradient, .range {
+  margin: 5%;
 }
