@@ -5,7 +5,7 @@ body {
   font-family: "Raleway";
 }
 .wrapper {
-  height: 88.89vh;
+  height: 97vh;
   background-image: url("images/bg-desktop.png");
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -23,6 +23,7 @@ body {
   padding: 12px;
 }
 .gradient {
+  height: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
   margin-right: -100px;
@@ -54,7 +55,7 @@ body {
   margin-right: 20px;
   padding-right: 10px;
   position: relative;
-  bottom: 30px;
+  bottom: 7px;
 }
 .right {
   background-color: hsl(228, 56%, 26%);
@@ -62,7 +63,7 @@ body {
   margin-top: 30px;
   padding-right: 120px;
   position: relative;
-  bottom: 30px;
+  bottom: 7px;
 }
 .content {
   width: 700px;
@@ -89,21 +90,46 @@ body {
 .gb-left{
   text-align: center;
   border:solid white;
-  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius:10px;
+  border-top-right-radius: 10px;
   color: hsl(229, 57%, 11%);
   width:150px;
   position: relative;
-  left: 755px;
-  top: 190px;
+  left: 680px;
+  bottom: 120px;
   z-index: 100;
   background-color: white;
   padding-top:10px;
-  padding-bottom:10px;
+  padding-bottom:14px;
+}
+.square{
+  /* border:solid white; */
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 650px;
+  bottom: 74px;
+  z-index: 800;
+  background-image: -webkit-linear-gradient(50deg, hsl(228, 56%, 26%) 50%, white 50%);
 }
  .strong-a{
    font-size: 30px;
    font-weight: bolder;
  }
+ .strong-b{
+   font-size: 10px;
+ }
+.circle{
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 80%;
+  border: 2.5px solid hsl(335, 100%, 65%);
+  align-content: center;
+}
+
 /*Image styles
 -------------------------------------------*/
 .Document-img,
