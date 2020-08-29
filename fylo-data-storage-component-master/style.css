@@ -215,6 +215,6 @@ body {
 @media screen and (max-width: 375PX) {
 body {
   background-image: url("images/bg-mobile.png");
- 
+  background-repeat: no-repeat;
 }
 }
