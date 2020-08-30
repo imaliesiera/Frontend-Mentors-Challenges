@@ -1,0 +1,43 @@
+/*Global styles
+-------------------------------------------*/
+body{
+    background-image: linear-gradient(
+    to right,
+    hsl(177, 90%, 61%),
+    hsl(341, 84%, 83%)
+  );
+}
+/*Link styles
+-------------------------------------------*/
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: space-between;
+    border-bottom: 1px solid white;
+}
+.nav-link{
+    padding: 10px;
+    color: white;
+}
+.challenge-links{
+    color:white;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color:rgb(7, 5, 119);
+    transform: scale(1.5);
+}
+/*Body styles
+-------------------------------------------*/
+
+
+
+
+
+
+
+/*Global styles
+-------------------------------------------*/
