@@ -1,11 +1,17 @@
 /*Global styles
 -------------------------------------------*/
 body{
+    /* display: block;
+    margin: 8px; */
     background-image: linear-gradient(
     to right,
     hsl(177, 90%, 61%),
     hsl(341, 84%, 83%)
   );
+}
+.wrapper{
+    width:100vh;
+    margin: 10px;
 }
 /*Link styles
 -------------------------------------------*/
@@ -22,10 +28,10 @@ nav {
     font-size: 20px;
 }
 .challenge-links{
-    color:white;
+    color: rgb(6, 6, 133);
 }
-.challenge-links :hover{
-    color:white;
+.challenge-links:hover{
+    color:rgb(228, 8, 81);
 }
 a {
     text-decoration: none;
@@ -51,6 +57,14 @@ h1{
 }
 h2, p{
     font-family: 'Poiret One', cursive;
+    color: rgb(6, 6, 133);
+}
+p{
+    font-weight: 500;
+}
+span{
+    color:rgb(6, 6, 133);
+    font-size:12px;
 }
 
 
@@ -59,5 +73,11 @@ h2, p{
 
 
 
-/*Global styles
+/*Responsive styles
 -------------------------------------------*/
+@media screen and (max-width: 715px) {
+    .wrapper{
+   display: inline;
+  }
+  }
+}
