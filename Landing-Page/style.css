@@ -18,20 +18,40 @@ nav {
 .nav-link{
     padding: 10px;
     color: white;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 20px;
 }
 .challenge-links{
+    color:white;
+}
+.challenge-links :hover{
     color:white;
 }
 a {
     text-decoration: none;
     font-weight: bold;
 }
-a:hover{
+.nav-link:hover{
     color:rgb(7, 5, 119);
     transform: scale(1.5);
 }
 /*Body styles
 -------------------------------------------*/
+.challenges{
+    color:rgb(228, 8, 81);
+    font-size: 50px;
+    font-family: 'Euphoria Script', cursive;
+}
+
+h1{
+    color: rgb(228, 8, 81);
+    font-size: 70px;
+    margin: 10px;
+    font-family: 'Euphoria Script', cursive;
+}
+h2, p{
+    font-family: 'Poiret One', cursive;
+}
 
 
 
