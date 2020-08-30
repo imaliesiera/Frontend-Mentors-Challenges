@@ -1,17 +1,26 @@
 /*Global styles
 -------------------------------------------*/
 body{
-    background-image: linear-gradient(
-    to right,
-    hsl(177, 90%, 61%),
-    hsl(341, 84%, 83%)
-  );
-  background-repeat: no-repeat;
+    
+ 
 }
-.wrapper{
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+main {
+  width: 100vw;
+}
+/* .wrapper{
     width:100vh;
     margin: 10px;
-}
+} */
 /*Link styles
 -------------------------------------------*/
 nav {
@@ -79,4 +88,3 @@ span{
    display: inline;
   }
   }
-}
