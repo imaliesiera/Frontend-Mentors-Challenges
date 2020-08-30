@@ -5,6 +5,11 @@ body{
  
 }
 html {
+    background-image: linear-gradient(
+    to right,
+    hsl(177, 90%, 61%),
+    hsl(341, 84%, 83%)
+  );
   box-sizing: border-box;
 }
 
