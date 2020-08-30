@@ -1,13 +1,12 @@
 /*Global styles
 -------------------------------------------*/
 body{
-    /* display: block;
-    margin: 8px; */
     background-image: linear-gradient(
     to right,
     hsl(177, 90%, 61%),
     hsl(341, 84%, 83%)
   );
+  background-repeat: no-repeat;
 }
 .wrapper{
     width:100vh;
