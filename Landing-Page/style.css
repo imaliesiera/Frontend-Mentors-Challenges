@@ -1,11 +1,7 @@
 /*Global styles
 -------------------------------------------*/
-body{
-    
- 
-}
 html {
-    background-image: linear-gradient(
+  background-image: linear-gradient(
     to right,
     hsl(177, 90%, 61%),
     hsl(341, 84%, 83%)
@@ -22,74 +18,66 @@ html {
 main {
   width: 100vw;
 }
-/* .wrapper{
-    width:100vh;
-    margin: 10px;
-} */
+
 /*Link styles
 -------------------------------------------*/
 nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: space-between;
-    border-bottom: 1px solid white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: space-between;
+  border-bottom: 1px solid white;
 }
-.nav-link{
-    padding: 10px;
-    color: white;
-    font-family: 'Euphoria Script', cursive;
-    font-size: 20px;
+.nav-link {
+  padding: 10px;
+  color: white;
+  font-family: "Euphoria Script", cursive;
+  font-size: 20px;
 }
-.challenge-links{
-    color: rgb(6, 6, 133);
+.challenge-links {
+  color: rgb(6, 6, 133);
 }
-.challenge-links:hover{
-    color:rgb(228, 8, 81);
+.challenge-links:hover {
+  color: rgb(228, 8, 81);
 }
 a {
-    text-decoration: none;
-    font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
 }
-.nav-link:hover{
-    color:rgb(7, 5, 119);
-    transform: scale(1.5);
+.nav-link:hover {
+  color: rgb(7, 5, 119);
+  transform: scale(1.5);
 }
 /*Body styles
 -------------------------------------------*/
-.challenges{
-    color:rgb(228, 8, 81);
-    font-size: 50px;
-    font-family: 'Euphoria Script', cursive;
+.challenges {
+  color: rgb(228, 8, 81);
+  font-size: 50px;
+  font-family: "Euphoria Script", cursive;
 }
 
-h1{
-    color: rgb(228, 8, 81);
-    font-size: 70px;
-    margin: 10px;
-    font-family: 'Euphoria Script', cursive;
+h1 {
+  color: rgb(228, 8, 81);
+  font-size: 70px;
+  margin: 10px;
+  font-family: "Euphoria Script", cursive;
 }
-h2, p{
-    font-family: 'Poiret One', cursive;
-    color: rgb(6, 6, 133);
+h2,
+p {
+  font-family: "Poiret One", cursive;
+  color: rgb(6, 6, 133);
 }
-p{
-    font-weight: 500;
+p {
+  font-weight: 500;
 }
-span{
-    color:rgb(6, 6, 133);
-    font-size:12px;
+span {
+  color: rgb(6, 6, 133);
+  font-size: 12px;
 }
-
-
-
-
-
-
 
 /*Responsive styles
 -------------------------------------------*/
 @media screen and (max-width: 715px) {
-    .wrapper{
-   display: inline;
+  .wrapper {
+    display: inline;
   }
-  }
+}
