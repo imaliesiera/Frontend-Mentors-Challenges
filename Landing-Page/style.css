@@ -32,9 +32,7 @@ nav {
 .challenge-links {
   color: rgb(6, 6, 133);
 }
-.challenge-links:hover {
-  color: rgb(228, 8, 81);
-}
+
 a {
   text-decoration: none;
   font-weight: bold;
@@ -74,18 +72,31 @@ span {
 ------------------------------------------- */
 .challenges-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: 250px 250px;
   grid-gap: 1rem;
-  
 }
-.challenge-1, .challenge-2{
+.challenge-1,
+.challenge-2 {
   background-color: mistyrose;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 5px 5px rgb(124, 3, 116);
 }
-
+.challenges-list a:hover {
+  color: rgb(228, 8, 81);
+}
 /* Responsive styles
 ------------------------------------------- */
 @media screen and (max-width: 715px) {
-  .wrapper {
+  .challenges,
+  p {
     display: inline;
   }
+}
+
+@media screen and (max-width: 550px) {
+.challenges-list {
+  display:flex;
+  flex-direction: column;
+  margin: 50px;
 }
