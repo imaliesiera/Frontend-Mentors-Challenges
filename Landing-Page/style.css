@@ -54,11 +54,11 @@ h1 {
 }
 h2,
 p {
-  font-family: "Poiret One", cursive;
+ font-family: 'Inconsolata', monospace;
   color: rgb(6, 6, 133);
 }
 p {
-  font-weight: 500;
+  font-weight: 900;
 }
 span {
   color: rgb(6, 6, 133);
