@@ -29,9 +29,6 @@ nav {
   font-family: "Euphoria Script", cursive;
   font-size: 20px;
 }
-.challenge-links {
-  color: rgb(6, 6, 133);
-}
 
 a {
   text-decoration: none;
@@ -78,11 +75,13 @@ span {
 }
 .challenge-1,
 .challenge-2 {
-  background-color: mistyrose;
+  background-color: white;
   border-radius: 12px;
   padding: 20px;
   box-shadow: 5px 5px rgb(124, 3, 116);
   font-family: 'Inconsolata', monospace;
+  color: rgb(2, 2, 71);
+  font-weight: 900;
 }
 .challenges-list a:hover {
   color: rgb(228, 8, 81);
@@ -101,4 +100,5 @@ span {
   display:flex;
   flex-direction: column;
   margin: 50px;
+}
 }
