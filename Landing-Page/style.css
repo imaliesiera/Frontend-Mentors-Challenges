@@ -74,6 +74,7 @@ span {
   display: grid;
   grid-template-columns: 250px 250px;
   grid-gap: 1rem;
+  align-content: center;
 }
 .challenge-1,
 .challenge-2 {
@@ -81,6 +82,7 @@ span {
   border-radius: 12px;
   padding: 20px;
   box-shadow: 5px 5px rgb(124, 3, 116);
+  font-family: 'Inconsolata', monospace;
 }
 .challenges-list a:hover {
   color: rgb(228, 8, 81);
