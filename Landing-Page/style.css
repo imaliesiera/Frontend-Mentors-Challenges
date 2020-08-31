@@ -6,18 +6,13 @@ html {
     hsl(177, 90%, 61%),
     hsl(341, 84%, 83%)
   );
+  background-repeat: no-repeat;
   box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-main {
-  width: 100vw;
-}
+ main {
+  height: 100vh;
+} 
 
 /*Link styles
 -------------------------------------------*/
