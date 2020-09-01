@@ -1,0 +1,50 @@
+/*Global styles
+-------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+main {
+  width: 1440px;
+}
+/*Intro styles
+-------------------------------------------*/
+.intro {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first-h1 {
+  font-weight: 100;
+  margin-bottom: 0;
+}
+.second-h1 {
+  margin: 0 auto;
+  font-weight: 600;
+}
+p{
+    font-weight: 200;
+}
+/*Card styles
+-------------------------------------------*/
+.container{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+/*Footer styles
+-------------------------------------------*/
