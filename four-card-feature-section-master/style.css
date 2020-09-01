@@ -12,6 +12,13 @@ html {
 
 main {
   width: 1440px;
+  margin: 3.5% auto;
+  top: 50%;
+  left: 20%;
+  right: 20%;
+}
+body {
+  background-color: hsl(0, 0%, 98%);
 }
 /*Intro styles
 -------------------------------------------*/
@@ -30,21 +37,39 @@ main {
   margin: 0 auto;
   font-weight: 600;
 }
-p{
-    font-weight: 200;
+p {
+  font-weight: 200;
 }
 /*Card styles
 -------------------------------------------*/
-.container{
-    display: flex;
-    font-family: "Poppins", sans-serif;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
+.container {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
 }
-
-
+.card1,
+.card2,
+.card3,
+.card4 {
+  font-weight: 200;
+  background-color: white;
+box-shadow: hsl(234, 12%, 34%);
+}
+.card1 {
+  border-top: 2px solid hsl(180, 62%, 55%);
+  
+  
+}
+.card2 {
+  border-top: 2px solid hsl(0, 78%, 62%);
+}
+.card3 {
+  border-top: 2px solid hsl(34, 97%, 64%);
+}
+.card4{
+  border-top: 2px solid hsl(212, 86%, 64%);
+}
 
 /*Footer styles
 -------------------------------------------*/
