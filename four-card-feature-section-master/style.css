@@ -19,6 +19,7 @@ main {
 }
 body {
   background-color: hsl(0, 0%, 98%);
+  font-size: 15px;
 }
 /*Intro styles
 -------------------------------------------*/
@@ -28,45 +29,71 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: hsl(234, 12%, 34%);
 }
 .first-h1 {
   font-weight: 100;
   margin-bottom: 0;
+  color: hsl(234, 12%, 34%);
 }
 .second-h1 {
   margin: 0 auto;
   font-weight: 600;
+  color: hsl(234, 12%, 34%);
 }
 p {
   font-weight: 200;
+  color: hsl(234, 12%, 34%);
 }
 /*Card styles
 -------------------------------------------*/
 
 .container {
   display: flex;
+  color: hsl(234, 12%, 34%);
   font-family: "Poppins", sans-serif;
   align-items: center;
-  margin-left: 7.5%;
+  justify-content: center;
+  margin-left: 12.5%;
+  width: 80%;
 }
 
-.icons{
-    float: right;
-    margin-top: 30px;
+.icons {
+  float: right;
+  margin-top: 30px;
 }
 
 .card1,
 .card2,
 .card3,
 .card4 {
+  text-align: left;
   font-weight: 200;
   background-color: white;
   box-shadow: 0px 2px 5px 0px hsl(229, 6%, 66%);
   border-radius: 5px;
-  width: 350px;
-  margin: 10px;
+  /* margin: 10px; */
   padding: 20px;
-  height: 280px;
+  overflow: hidden;
+}
+
+.container1 {
+  flex-direction: row;
+  width: 100%;
+  margin-right: 18px;
+}
+
+.container2 {
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+.container3 {
+    flex-direction: row;
+    margin-left: 18px; 
+    margin-right: 50px;
+    width: 100%;
 }
 
 .card1 {
@@ -74,9 +101,11 @@ p {
 }
 .card2 {
   border-top: 4px solid hsl(0, 78%, 62%);
+  margin-bottom: 9px;
 }
 .card3 {
   border-top: 4px solid hsl(34, 97%, 64%);
+  margin-top: 9px;
 }
 .card4 {
   border-top: 4px solid hsl(212, 86%, 64%);
@@ -84,7 +113,9 @@ p {
 
 /*Footer styles
 -------------------------------------------*/
-.attribution{
-     font-family: "Poppins", sans-serif;
-     padding-top: 30px;
+.attribution {
+  font-family: "Poppins", sans-serif;
+  padding-top: 30px;
 }
+/*Responsive styles
+-------------------------------------------*/
