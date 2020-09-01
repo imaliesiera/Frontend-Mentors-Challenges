@@ -40,10 +40,12 @@ body {
   margin: 0 auto;
   font-weight: 600;
   color: hsl(234, 12%, 34%);
+  margin-bottom: 20px;
 }
 p {
   font-weight: 200;
   color: hsl(234, 12%, 34%);
+  margin: 0 auto;
 }
 /*Card styles
 -------------------------------------------*/
@@ -56,6 +58,7 @@ p {
   justify-content: center;
   margin-left: 7.5%;
   width: 90%;
+  margin-top: 40px;
 }
 
 .icons {
