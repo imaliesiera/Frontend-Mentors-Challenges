@@ -14,20 +14,48 @@ body {
   background-color:    hsl(210, 46%, 95%);
   font-size: 15px;
   font-family: 'Manrope', sans-serif;
+  color: hsl(217, 19%, 35%);
+  font-size: 13px;
 }
 
 /*Body styles
 -------------------------------------------*/
+
 .drawers-image{
-    width: 300px;
+    width: 250px;
+    height: 250px;
+     height: 100%;
 }
 
 .content{
     display: flex;
+    margin: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15%;
+    font-weight: 500px;
+    overflow: hidden;
+    /* border: solid black; */
+    height: 500px;
+    height: 90%;
+}
+.User{
+    display: flex;
 }
 
 .information{
-    display: flex;
-    flex-direction: column;
+    display: block;
     background-color: white;
+    /* border: SOLID greenyellow; */
 }
+.Description{
+    color:hsl(212, 23%, 69%);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+H2{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/*Images styles
+-------------------------------------------*/
