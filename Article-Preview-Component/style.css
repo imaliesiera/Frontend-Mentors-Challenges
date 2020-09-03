@@ -20,17 +20,10 @@ body {
 
 /*Body styles
 -------------------------------------------*/
-
-.drawers-image{
-    width: 250px;
-    height: 250px;
-     height: 100%;
-}
-
 .content{
     display: flex;
     margin: 20px;
-    margin-left: 20%;
+    margin-left: 18%;
     margin-right: 20%;
     margin-top: 15%;
     font-weight: 500px;
@@ -41,21 +34,64 @@ body {
 }
 .User{
     display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-top: 25px;
+    padding-bottom: 5px;
+   
 }
 
 .information{
     display: block;
     background-color: white;
+    padding: 8px;
     /* border: SOLID greenyellow; */
 }
 .Description{
     color:hsl(212, 23%, 69%);
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 5%;
+    /* padding-top: 8px; */
+}
+.user-name{
+     margin-left: 20px;
+     margin-right: 40%
+}
+.date{
+    color:hsl(212, 23%, 69%);
 }
 H2{
-    padding-left: 10%;
+    padding-left: 8%;
     padding-right: 10%;
+    padding-top: 15px;
+}
+h4{
+     margin-top: 0;
+     margin-bottom: 0;
+     color:hsl(217, 19%, 35%)
 }
 /*Images styles
 -------------------------------------------*/
+.drawers-image{
+    width: 350px;
+    height: 100%;
+    margin-right: -60px;
+}
+
+.avatar{
+     display: flex;
+    align-self: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+.share{
+   background-color:hsl(210, 46%, 95%);
+   width:20px;
+   height: 20px;
+   align-self: center;
+}
+footer{
+   position: relative;
+    bottom: -170px
+}
