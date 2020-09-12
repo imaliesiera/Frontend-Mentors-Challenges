@@ -1,0 +1,15 @@
+/*Global styles
+-------------------------------------------*/
+Body{
+    max-width: 1440px;
+}
+
+:root {
+  --bright-blue: hsl(224, 93%, 58%);
+  --moderate-oyan: hsl(170, 45%, 43%);
+  --light-grayish-blue: hsl(240, 75%, 98%);
+  --light-gray: hsl(0, 0%, 75%);
+}
+* {
+  box-sizing: border-box;
+}
