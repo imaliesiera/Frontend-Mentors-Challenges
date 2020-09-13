@@ -113,18 +113,32 @@ a {
 
 /*Button and Search styles
 -------------------------------------------*/
-.button{
+.button1{
   background-color:var(--bright-blue);
   width: 150px;
   color: white;
   padding: 8px 10px 8px 8px;
   text-align: center;
-  font-size: 12px;
+  /* font-size: 12px; */
 }
 .input-email{
   display: flex;
   flex-direction: row;
 }
+.enter-email{
+  border: 1px solid black;
+  color:var(--light-gray);
+  padding: 8px 100px 8px 8px;
+  margin-right: 10px;
+}
+.button2{
+  background-color:var(--bright-blue);
+  width: 180px;
+  color: white;
+  padding: 8px 10px 8px 8px;
+  text-align: center;
+}
+
 
 /*Contact styles
 -------------------------------------------*/
