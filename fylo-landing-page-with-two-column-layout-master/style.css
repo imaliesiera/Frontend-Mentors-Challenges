@@ -23,7 +23,8 @@ Body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-     margin:5%;
+    margin-left: 9%;
+    margin-right: 9%;
 }
 
 /*Image styles
@@ -53,23 +54,33 @@ a{
   text-decoration: none;
   color: black;
 }
+.nav-linkSpace1{
+  padding: 45px;
+}
 .first-wrap{
   display: flex;
   flex-direction: row;
   margin:5%;
+  justify-content: space-around;
 }
 .second-wrap{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   background-image: url("images/bg-curve-desktop.svg");
 }
-
+.right-first-wrap{
+  width: 45%;
+  
+}
 .right-second-wrap{
   margin-left: 5%;;
+  width: 45%;
 }
 .third-wrap{
   display: flex;
   flex-direction: column;
+  
  margin-right: 5%;
   margin-left: 5%;
 }
