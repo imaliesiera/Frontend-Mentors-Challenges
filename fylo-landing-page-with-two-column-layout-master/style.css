@@ -2,6 +2,7 @@
 -------------------------------------------*/
 Body{
     max-width: 1440px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root {
@@ -28,4 +29,17 @@ Body{
 }
 .illustration-2{
   width: 300px;
+}
+
+/*Content styles
+-------------------------------------------*/
+h1, h2, nav{
+  font-family: 'Raleway', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+p{
+  
 }
