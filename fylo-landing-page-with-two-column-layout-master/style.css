@@ -13,3 +13,10 @@ Body{
 * {
   box-sizing: border-box;
 }
+/*Nav styles
+-------------------------------------------*/
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
