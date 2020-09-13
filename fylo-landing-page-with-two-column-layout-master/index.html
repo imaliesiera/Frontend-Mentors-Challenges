@@ -11,8 +11,14 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+    </style>
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+    </style>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -28,41 +34,58 @@
   <body>
     <main>
       <header>
-       <img src="images/logo.svg" alt="logo" class="logo">
-        <nav>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Team</a>
-          <a class="nav-link" href="#">Sgn In</a>
-        </nav>
+        <div class="header">
+          <img src="images/logo.svg" alt="logo" class="logo1" />
+          <nav>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Team</a>
+            <a class="nav-link" href="#">Sgn In</a>
+          </nav>
+        </div>
       </header>
       <section>
-        <h2>All your files in one secure location, accessible anywhere.</h2>
-        <p>
-          Fylo stores your most important files in one secure location. Access
-          them wherever you need, share and collaborate with friends, family,
-          and co-workers.
-        </p>
-        <div class="button">Get Started</div>
+        <div class="first-wrap">
+          <div class="right-first-wrap">
+            <h1>All your files in one secure location, accessible anywhere.</h1>
+            <p>
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+            <div class="button">Get Started</div>
+          </div>
+          <div class="left-first-wrap">
+            <img src="images/illustration-1.svg" alt="illustration-1" />
+          </div>
+        </div>
       </section>
+
       <section>
-        <h2>Stay productive, wherever you are</h2>
-        <p>
-          Never let location be an issue when accessing your files. Fylo has you
-          covered for all of your file storage needs.
-        </p>
-        <p>
-          Securely share files and folders with friends, family and colleagues
-          for live collaboration. No email attachments required!
-        </p>
-        <div class="How-Fylo_works">See how Fylo works</div>
-        <div class="card">
-          Fylo has improved our team productivity by an order of magnitude.
-          Since making the switch our team has become a well-oiled collaboration
-          machine. Kyle Burton Founder & CEO, Huddle
+        <div class="second-wrap">
+          <div class="right-second-wrap">
+            <h1>Stay productive, wherever you are</h1>
+            <p>
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p>
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </p>
+            <div class="How-Fylo_works">See how Fylo works</div>
+            <div class="card">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine. Kyle Burton Founder & CEO, Huddle
+            </div>
+          </div>
+          <div class="left-second-wrap">
+            <img src="images/illustration-2.svg" alt="illustration-2" />
+          </div>
         </div>
       </section>
       <section>
-        <h3>Get early access today</h3>
+        <h2>Get early access today</h2>
         <div class="Early-Access">
           <div>
             <p>
@@ -75,8 +98,13 @@
         </div>
       </section>
       <div class="Contact">
-        Phone: +1-543-123-4567 example@fylo.com About Us Jobs Press Blog Contact
-        Us Terms Privacy
+        <div>
+          <img src="images/logo.svg" alt="logo" class="logo2" />
+        </div>
+        <div>
+          Phone: +1-543-123-4567 example@fylo.com About Us Jobs Press Blog
+          Contact Us Terms Privacy
+        </div>
       </div>
       <footer>
         <p class="attribution">
