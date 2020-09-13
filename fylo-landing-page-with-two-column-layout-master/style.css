@@ -1,9 +1,8 @@
 /*Global styles
 -------------------------------------------*/
-Body{
-    max-width: 1440px;
-    font-family: 'Open Sans', sans-serif;
-   
+Body {
+  max-width: 1440px;
+  font-family: "Open Sans", sans-serif;
 }
 
 :root {
@@ -19,90 +18,102 @@ Body{
 }
 /*Nav styles
 -------------------------------------------*/
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 9%;
-    margin-right: 9%;
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 5%;
 }
 
 /*Image styles
 -------------------------------------------*/
-.illustration-1{
+.illustration-1 {
   width: 450px;
 }
-.illustration-2{
+.illustration-2 {
   width: 450px;
-  margin-right: 5%;;
+  margin-right: 5%;
 }
-.avatar{
+.avatar {
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  margin-right: 12px;
 }
 /* .logo2{
   color: white;
 } */
 /*Content styles
 -------------------------------------------*/
-h1, h2, nav{
-  font-family: 'Raleway', sans-serif;
+h1,
+h2,
+nav {
+  font-family: "Raleway", sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
-.nav-linkSpace1{
+.nav-linkSpace1 {
   padding: 45px;
 }
-.first-wrap{
+.first-wrap {
   display: flex;
   flex-direction: row;
-  margin:5%;
+  margin: 5%;
   justify-content: space-around;
 }
-.second-wrap{
+.second-wrap {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-image: url("images/bg-curve-desktop.svg");
+  padding-bottom: 100px;
+  padding-top: 130px;
 }
-.right-first-wrap{
-  width: 45%;
-  
-}
-.right-second-wrap{
-  margin-left: 5%;;
+
+.right-first-wrap {
   width: 45%;
 }
-.third-wrap{
+.right-second-wrap {
+  margin-left: 5%;
+  width: 45%;
+}
+.third-wrap {
   display: flex;
   flex-direction: column;
-  
- margin-right: 5%;
-  margin-left: 5%;
-}
-.third-third-wrap{
-  background-color: var(--desaturated-blue);
-  padding: 0;
-}
-.card{
-  width: 400px;
-  background-color: white;
-  padding: 20px;
-}
-.profile{
-  display: flex;
-}
-/*Contact styles
--------------------------------------------*/
-.Contact{
   margin-right: 5%;
   margin-left: 5%;
 }
-.Conact-wrap{
+.third-third-wrap {
+  background-color: var(--desaturated-blue);
+  padding: 0;
+}
+.card {
+  width: 400px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  
+}
+.card-paragraph{
+  line-height: 4vh;
+}
+.profile {
+  padding-top: 10px;
+  display: flex;
+
+}
+/*Contact styles
+-------------------------------------------*/
+.Contact {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.Conact-wrap {
   background-color: var(--very-dark-blue);
   color: white;
   margin: 0 auto;
