@@ -110,6 +110,22 @@ a {
   color: var(--moderate-oyan);
   text-decoration: underline;
 }
+
+/*Button and Search styles
+-------------------------------------------*/
+.button{
+  background-color:var(--bright-blue);
+  width: 150px;
+  color: white;
+  padding: 8px 10px 8px 8px;
+  text-align: center;
+  font-size: 12px;
+}
+.input-email{
+  display: flex;
+  flex-direction: row;
+}
+
 /*Contact styles
 -------------------------------------------*/
 .Contact {
