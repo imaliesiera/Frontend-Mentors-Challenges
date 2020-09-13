@@ -105,7 +105,10 @@ a {
 .profile {
   padding-top: 10px;
   display: flex;
-
+}
+.How-Fylo_works{
+  color: var(--moderate-oyan);
+  text-decoration: underline;
 }
 /*Contact styles
 -------------------------------------------*/
