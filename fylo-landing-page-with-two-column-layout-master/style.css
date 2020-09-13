@@ -25,10 +25,15 @@ Body{
 /*Image styles
 -------------------------------------------*/
 .illustration-1{
-  width: 300px;
+  width: 450px;
 }
 .illustration-2{
-  width: 300px;
+  width: 450px;
+}
+.avatar{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 /*Content styles
@@ -40,6 +45,24 @@ h1, h2, nav{
 a{
   text-decoration: none;
 }
-p{
-  
+.first-wrap{
+  display: flex;
+  flex-direction: row;
+}
+.second-wrap{
+  display: flex;
+  flex-direction: row;
+  background-image: url("images/bg-curve-desktop.svg");
+}
+/* .third-wrap{
+  display: flex;
+  flex-direction: column;
+} */
+.card{
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+}
+.profile{
+  display: flex;
 }
