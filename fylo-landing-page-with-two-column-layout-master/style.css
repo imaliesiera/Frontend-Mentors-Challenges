@@ -20,3 +20,12 @@ Body{
     flex-direction: row;
     justify-content: space-between;
 }
+
+/*Image styles
+-------------------------------------------*/
+.illustration-1{
+  width: 300px;
+}
+.illustration-2{
+  width: 300px;
+}
