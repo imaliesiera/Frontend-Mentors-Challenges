@@ -3,6 +3,7 @@
 Body {
   max-width: 1440px;
   font-family: "Open Sans", sans-serif;
+  margin: 0 auto ;
 }
 
 :root {
@@ -124,36 +125,36 @@ a {
 -------------------------------------------*/
 .button1{
   background-color:var(--bright-blue);
-  width: 150px;
+  width: 120px;
   color: white;
-  padding: 8px 10px 8px 8px;
+  padding: 10px 55px 10px 55px;
   text-align: center;
-  /* font-size: 12px; */
+  font-size: 11px;
+  margin-left: 10px;
 }
 .input-email{
   display: flex;
   flex-direction: row;
+  
 }
 .enter-email{
-  border: 1px solid black;
-  color:var(--light-gray);
-  padding: 8px 100px 8px 8px;
-  margin-right: 10px;
-}
+      width: 250px;
+      height: 35px;
+    }
+
 .button2{
   background-color:var(--bright-blue);
   width: 180px;
   color: white;
   padding: 8px 10px 8px 8px;
   text-align: center;
+  
 }
 .email-example{
-  border: 1px solid black;
-  color:var(--light-gray);
-  padding: 8px 100px 8px 8px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  background-color: white;
+      width: 250px;
+      height: 35px;
+      margin-bottom: 20px;
+    }
 }
 
 /*Contact styles
