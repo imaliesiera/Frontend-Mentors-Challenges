@@ -84,9 +84,18 @@ a {
 }
 .third-wrap {
   display: flex;
-  flex-direction: column;
-  margin-right: 5%;
-  margin-left: 5%;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: white;
+}
+.right-third-wrap{
+  margin-left: 2%;
+  width: 45%;
+}
+.left-third-wrap{
+  padding-top: 20px;
 }
 .third-third-wrap {
   background-color: var(--desaturated-blue);
@@ -138,7 +147,14 @@ a {
   padding: 8px 10px 8px 8px;
   text-align: center;
 }
-
+.email-example{
+  border: 1px solid black;
+  color:var(--light-gray);
+  padding: 8px 100px 8px 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+}
 
 /*Contact styles
 -------------------------------------------*/
