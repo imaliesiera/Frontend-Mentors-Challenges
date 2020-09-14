@@ -161,6 +161,8 @@ a {
 .Contact {
   margin-right: 5%;
   margin-left: 5%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .Conact-wrap {
   background-color: var(--very-dark-blue);
