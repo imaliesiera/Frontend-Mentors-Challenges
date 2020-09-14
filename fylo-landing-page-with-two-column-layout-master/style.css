@@ -100,6 +100,7 @@ a {
 .third-third-wrap {
   background-color: var(--desaturated-blue);
   padding: 0;
+  
 }
 .card {
   width: 400px;
@@ -154,26 +155,29 @@ a {
       height: 35px;
       margin-bottom: 20px;
     }
-}
+
 
 /*Contact styles
 -------------------------------------------*/
-.Contact {
-  margin-right: 5%;
-  margin-left: 5%;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.Conact-wrap {
+.contact-wrap{
   background-color: var(--very-dark-blue);
-  color: white;
-  margin: 0 auto;
+  
 }
+.Contact{
+ 
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+ 
+}
+
 .contact-addresses{
   display: flex;
   flex-direction: row;
+  
+  margin-left: 10%;
 }
-.contact-addresses a{
+.Contact a{
   display: flex;
   flex-direction: column;
   color: white;
