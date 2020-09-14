@@ -92,7 +92,6 @@ a {
   color: white;
 }
 .right-third-wrap{
-  margin-left: 2%;
   width: 45%;
 }
 .left-third-wrap{
@@ -169,4 +168,13 @@ a {
   background-color: var(--very-dark-blue);
   color: white;
   margin: 0 auto;
+}
+.contact-addresses{
+  display: flex;
+  flex-direction: row;
+}
+.contact-addresses a{
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
