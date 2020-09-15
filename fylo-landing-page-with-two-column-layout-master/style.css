@@ -3,7 +3,7 @@
 Body {
   max-width: 1440px;
   font-family: "Open Sans", sans-serif;
-  margin: 0 auto ;
+  margin: 0 auto;
 }
 
 :root {
@@ -53,7 +53,9 @@ h2,
 nav {
   font-family: "Raleway", sans-serif;
 }
-
+h1 {
+  font-weight: 700;
+}
 a {
   text-decoration: none;
   color: black;
@@ -66,6 +68,7 @@ a {
   flex-direction: row;
   margin: 5%;
   justify-content: space-around;
+  color: hsl(243, 87%, 12%);
 }
 .second-wrap {
   display: flex;
@@ -74,6 +77,7 @@ a {
   background-image: url("images/bg-curve-desktop.svg");
   padding-bottom: 100px;
   padding-top: 130px;
+  color: hsl(243, 87%, 12%);
 }
 
 .right-first-wrap {
@@ -89,128 +93,127 @@ a {
   justify-content: space-around;
   padding-top: 70px;
   padding-bottom: 70px;
-  color: white;
+  color: var(--light-grayish-blue);
 }
-.right-third-wrap{
+.right-third-wrap {
   width: 45%;
 }
-.left-third-wrap{
+.left-third-wrap {
   padding-top: 20px;
-  
 }
 .third-third-wrap {
   background-color: var(--desaturated-blue);
   padding: 0;
-  
 }
 .card {
   width: 400px;
   background-color: white;
   padding: 30px;
   border-radius: 20px;
-  
 }
-.card-paragraph{
+.card-paragraph {
   line-height: 4vh;
 }
 .profile {
   padding-top: 10px;
   display: flex;
 }
-.How-Fylo_works{
+.How-Fylo_works {
   color: var(--moderate-oyan);
   text-decoration: underline;
 }
 
 /*Button and Search styles
 -------------------------------------------*/
-.button1{
-  background-color:var(--bright-blue);
+.button1 {
+  background-color: var(--bright-blue);
   width: 120px;
-  color: white;
+  color: var(--light-grayish-blue);
   padding: 10px 55px 10px 55px;
   text-align: center;
   font-size: 11px;
-  margin-left: 10px;
+    margin-left: 10px;
 }
-.input-email{
+.input-email {
   display: flex;
   flex-direction: row;
-  
 }
-.enter-email{
-      width: 250px;
-      height: 35px;
-    }
 
-.button2{
-  background-color:var(--bright-blue);
+.enter-email {
+  width: 250px;
+  height: 35px;
+  padding-left: 20px;
+}
+
+.button2 {
+  background-color: var(--bright-blue);
   width: 180px;
-  color: white;
-  padding: 8px 10px 8px 8px;
+  color: var(--light-grayish-blue);
+  padding: 8px 20px 8px 25px;
   text-align: center;
-  
+  font-size: 11px;
 }
-.email-example{
-      width: 250px;
-      height: 35px;
-      margin-bottom: 20px;
-    }
-
+.email-example {
+  width: 250px;
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
 
 /*Contact styles
 -------------------------------------------*/
-.contact-wrap{
+.contact-wrap {
   background-color: var(--very-dark-blue);
-  
 }
-.Contact{
-  color: white;
+.Contact {
+  color: var(--light-grayish-blue);
   padding-top: 60px;
   padding-bottom: 60px;
- 
 }
 
-.contact-addresses{
+.contact-addresses {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-left: 10%;
   margin-right: 10%;
+  color: var(--light-grayish-blue);
 }
-.Contact a{
+.Contact a {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: var(--light-grayish-blue);
 }
-.contact-links{
+.contact-links {
   padding-bottom: 12px;
 }
 /*Icons styles
 -------------------------------------------*/
-.fa-layer-group{
+.fa-layer-group {
   padding-left: 10%;
-  
 }
-.fa-facebook-f{
- font-size: 14px;
+.fa-facebook-f {
+  font-size: 14px;
   border: 1px solid white;
   border-radius: 50%;
   padding: 5px;
   padding-left: 8px;
   padding-right: 8px;
 }
-.fa-twitter{
+.fa-twitter {
   font-size: 14px;
   margin-left: 10px;
   border: 1px solid white;
   padding: 5px;
   border-radius: 50%;
 }
-.fa-instagram{
+.fa-instagram {
   font-size: 14px;
   margin-left: 10px;
   border: 1px solid white;
   padding: 5px;
   border-radius: 50%;
 }
+
+/*Responsive styles
+-------------------------------------------*/
