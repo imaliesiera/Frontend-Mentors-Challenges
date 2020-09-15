@@ -72,6 +72,7 @@ a {
   margin: 5%;
   justify-content: space-around;
   color: hsl(243, 87%, 12%);
+  padding-bottom: 70px;
 }
 .second-wrap {
   display: flex;
@@ -94,12 +95,12 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   color: var(--light-grayish-blue);
 }
 .right-third-wrap {
-  width: 45%;
+  width: 35%;
 }
 .left-third-wrap {
   padding-top: 20px;
@@ -169,8 +170,8 @@ a {
 }
 .Contact {
   color: var(--light-grayish-blue);
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .contact-addresses {
@@ -216,7 +217,9 @@ a {
   padding: 5px;
   border-radius: 50%;
 }
-
+.attribution{
+  margin: 0 auto;
+}
 /*Responsive styles
 -------------------------------------------*/
 @media screen and (max-width: 1000px) {
