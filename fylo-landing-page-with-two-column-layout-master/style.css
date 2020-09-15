@@ -60,8 +60,12 @@ a {
   text-decoration: none;
   color: black;
 }
+.nav-link {
+  color: var(--desaturated-blue);
+}
 .nav-linkSpace1 {
   padding: 45px;
+   color: var(--desaturated-blue);
 }
 .first-wrap {
   display: flex;
@@ -127,12 +131,11 @@ a {
 -------------------------------------------*/
 .button1 {
   background-color: var(--bright-blue);
-  width: 120px;
   color: var(--light-grayish-blue);
   padding: 10px 55px 10px 55px;
   text-align: center;
   font-size: 11px;
-    margin-left: 10px;
+  margin-left: 10px;
 }
 .input-email {
   display: flex;
@@ -217,3 +220,37 @@ a {
 
 /*Responsive styles
 -------------------------------------------*/
+@media screen and (max-width: 1000px) {
+  .input-email {
+  display: flex;
+  flex-direction: column;
+  
+}
+.button1{
+  width: 250px;
+  margin-top: 5%;
+  margin-left: 0;
+}
+  }
+
+@media screen and (max-width: 700px){
+  .first-wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+ 
+}
+.right-first-wrap {
+  width: 100%;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.nav-linkSpace1 {
+  padding: 25px;
+}
+  }
