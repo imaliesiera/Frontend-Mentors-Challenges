@@ -96,6 +96,7 @@ a {
 }
 .left-third-wrap{
   padding-top: 20px;
+  
 }
 .third-third-wrap {
   background-color: var(--desaturated-blue);
@@ -164,7 +165,6 @@ a {
   
 }
 .Contact{
- 
   color: white;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -174,11 +174,43 @@ a {
 .contact-addresses{
   display: flex;
   flex-direction: row;
-  
+  justify-content: space-between;
   margin-left: 10%;
+  margin-right: 10%;
 }
 .Contact a{
   display: flex;
   flex-direction: column;
   color: white;
+}
+.contact-links{
+  padding-bottom: 12px;
+}
+/*Icons styles
+-------------------------------------------*/
+.fa-layer-group{
+  padding-left: 10%;
+  
+}
+.fa-facebook-f{
+ font-size: 14px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.fa-twitter{
+  font-size: 14px;
+  margin-left: 10px;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+.fa-instagram{
+  font-size: 14px;
+  margin-left: 10px;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 50%;
 }
