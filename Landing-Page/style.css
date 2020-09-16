@@ -21,6 +21,7 @@ canvas {
 header {
   border-radius: 2px;
   margin: 0 auto;
+  border-bottom:  ridge rgba(255, 255, 255, 0.664);
 }
 
 /*Link styles
@@ -29,13 +30,13 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: space-between;
-  border-bottom:  ridge rgba(255, 255, 255, 0.664);
 }
 .nav-link {
   padding: 10px;
   color: white;
   font-family: 'Patrick Hand SC', cursive;
   font-size: 30px;
+  
 }
 
 a {
@@ -80,16 +81,15 @@ span {
 }
 
 .challenge1,
-.challenge2 {
+.challenge2, .challenge3 {
   font-family: 'Patrick Hand SC', cursive;
-  /* border: solid white; */
   border-radius: 12px;
   width: 200px;
-  background-color: rgb(255, 236, 128);
+  background-color: rgba(255, 241, 159, 0.822);
   text-align: center;
   padding: 30px;
 }
-.challenge2{
+.challenge2, .challenge3{
    margin-left: 4%;
 }
 
@@ -98,7 +98,7 @@ span {
   
 }
 .challenge1 a,
-.challenge2 a {
+.challenge2 a, .challenge3 a {
   color: black;
   
 }
@@ -116,7 +116,6 @@ span {
   .challenges-list {
     display: flex;
     flex-direction: column;
-    margin: 50px;
   }
 }
 
