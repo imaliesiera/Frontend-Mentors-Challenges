@@ -29,7 +29,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: space-between;
-  border-bottom: 1px solid white;
+  border-bottom:  ridge rgba(255, 255, 255, 0.664);
 }
 .nav-link {
   padding: 10px;
@@ -55,7 +55,7 @@ a {
  
 p {
   font-family: 'Lato', sans-serif;
-  color: white;
+  color: rgba(255, 255, 255, 0.822);
 }
 /* h4{
   color: ; */
@@ -82,24 +82,25 @@ span {
 .challenge1,
 .challenge2 {
   font-family: 'Patrick Hand SC', cursive;
-  border: solid white;
+  /* border: solid white; */
   border-radius: 12px;
   width: 200px;
- 
-  background-color: white;
+  background-color: rgb(255, 236, 128);
   text-align: center;
+  padding: 30px;
 }
 .challenge2{
    margin-left: 4%;
 }
 
 .challenges-list a:hover {
-  color: rgb(61, 30, 95);
+  color: rgb(247, 3, 3);
   
 }
 .challenge1 a,
 .challenge2 a {
   color: black;
+  
 }
 
 /* Responsive styles
@@ -124,6 +125,7 @@ span {
 
 h1 {
   color: white;
+  border-radius: 50%;
   font-size: 70px;
   margin: 10px;
  font-family: 'Patrick Hand SC', cursive;
@@ -134,12 +136,16 @@ h2{
    text-align: center;
    font-family: 'Lato', sans-serif;
    font-weight: 300;
-   color: white;
+   color: rgba(255, 255, 255, 0.87);
    font-family: 'Patrick Hand SC', cursive;
 }
 .challenges {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 50px;
  font-family: 'Patrick Hand SC', cursive;
   text-align: center;
+}
+
+.fa-thumbtack{
+  color: black;
 }
