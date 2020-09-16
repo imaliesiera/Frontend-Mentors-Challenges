@@ -1,18 +1,26 @@
 /*Global styles
 -------------------------------------------*/
 html {
-  background-image: linear-gradient(
-    to right,
-    hsl(177, 90%, 61%),
-    hsl(341, 84%, 83%)
-  );
-  /* background-repeat: no-repeat; */
+  background-image: url("./images/kelly-sikkema-tk9RQCq5eQo-unsplash.jpg");
+  background-size: cover;
+  background-position: 90%;
+  width: 100vw;
+  height: 100vh;
   box-sizing: border-box;
 }
+canvas {
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
 
-main {
-  width: 100vw;
-  /* margin: 0 auto; */
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  border-radius: 2px;
+  margin: 0 auto;
 }
 
 /*Link styles
@@ -26,8 +34,8 @@ nav {
 .nav-link {
   padding: 10px;
   color: white;
-  font-family: "Euphoria Script", cursive;
-  font-size: 20px;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 30px;
 }
 
 a {
@@ -35,30 +43,26 @@ a {
   font-weight: bold;
 }
 .nav-link:hover {
-  color: rgb(7, 5, 119);
+  color: cyan;
   transform: scale(1.5);
 }
 /*Body styles
 -------------------------------------------*/
-.challenges {
-  color: rgb(228, 8, 81);
-  font-size: 50px;
-  font-family: "Euphoria Script", cursive;
+.wrapper{
+  margin-left: 20%;
+  margin-right: 10%;
 }
+ 
+p {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+/* h4{
+  color: ; */
 
-h1 {
-  color: rgb(228, 8, 81);
-  font-size: 70px;
-  margin: 10px;
-  font-family: "Euphoria Script", cursive;
-}
-h2,
 p {
- font-family: 'Inconsolata', monospace;
-  color: rgb(6, 6, 133);
-}
-p {
-  font-weight: 900;
+  font-weight: 300;
+  line-height: 2em;
 }
 span {
   color: rgb(6, 6, 133);
@@ -68,24 +72,36 @@ span {
 /* Challenge styles
 ------------------------------------------- */
 .challenges-list {
-  display: grid;
-  grid-template-columns: 250px 250px;
-  grid-gap: 1rem;
-  align-content: center;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+
+  /* justify-content: space-between; */
 }
-.challenge-1,
-.challenge-2 {
-  background-color: white;
+
+.challenge1,
+.challenge2 {
+  font-family: 'Patrick Hand SC', cursive;
+  border: solid white;
   border-radius: 12px;
-  padding: 20px;
-  box-shadow: 5px 5px rgb(124, 3, 116);
-  font-family: 'Inconsolata', monospace;
-  color: rgb(2, 2, 71);
-  font-weight: 900;
+  width: 200px;
+ 
+  background-color: white;
+  text-align: center;
 }
+.challenge2{
+   margin-left: 4%;
+}
+
 .challenges-list a:hover {
-  color: rgb(228, 8, 81);
+  color: rgb(61, 30, 95);
+  
 }
+.challenge1 a,
+.challenge2 a {
+  color: black;
+}
+
 /* Responsive styles
 ------------------------------------------- */
 @media screen and (max-width: 715px) {
@@ -96,9 +112,34 @@ span {
 }
 
 @media screen and (max-width: 550px) {
-.challenges-list {
-  display:flex;
-  flex-direction: column;
-  margin: 50px;
+  .challenges-list {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+  }
 }
+
+/* Heading styles
+------------------------------------------- */
+
+h1 {
+  color: white;
+  font-size: 70px;
+  margin: 10px;
+ font-family: 'Patrick Hand SC', cursive;
+  text-align: center;
+}
+
+h2{
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   font-weight: 300;
+   color: white;
+   font-family: 'Patrick Hand SC', cursive;
+}
+.challenges {
+  color: white;
+  font-size: 50px;
+ font-family: 'Patrick Hand SC', cursive;
+  text-align: center;
 }
