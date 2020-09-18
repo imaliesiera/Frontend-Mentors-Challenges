@@ -76,8 +76,6 @@ span {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-
-  /* justify-content: space-between; */
 }
 
 .challenge1,
